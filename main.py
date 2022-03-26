@@ -14,10 +14,10 @@ from config import settings
 
 #База данных MYSQL
 mydb = mysql.connector.connect(
-    host="127.0.0.1",
-    user=("root"),
-    password=("ktoya13082002"),
-    database="dis_bot"
+    host="127.0.0.1",#Your host db
+    user=("user"),#Your username db
+    password=("password"),#Your password db
+    database="dis_bot"# name db
 )
 mycursor = mydb.cursor()
 
